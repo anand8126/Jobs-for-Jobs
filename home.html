@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs for Your</title>
+    <link rel="stylesheet" href="Style.css">
+   <style>
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color:#ecedee;
+
+    height: 250vh;
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    padding:5px;
+    text-align: center;
+    background-color:green;
+    color:white;
+}
+.h1 h1{
+    font-size: 40px;
+} 
+ul{
+    float: right;
+    margin-top:30px;
+    margin-right: 100px;
+
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color:blue;
+    padding: 5px 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+     
+}
+ul li.active{
+    //*background-color:green;*/
+    color: black;
+}
+ul li a:hover{
+    background-color:green;
+    color:white;
+    
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.post1{
+    height: 600px;
+    width: 420px;
+    border: black 5px solid;
+   margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.post1 h2{
+    text-align: center;
+    font: size 10px;
+    color: white;
+    background-color:green;
+}
+.post1 a{
+    text-align: center;
+}
+.post1 button{
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left:150px;
+    
+}
+.post2{
+    height: 600px;
+    width: 420px;
+    border: black 5px solid;
+    margin-left: 465px;
+    margin-top: -610px;
+    border-radius: 10px;
+  
+}
+.post2 h2{
+    text-align: center;
+    font: size 10px;
+    color: white;
+    background-color:green;
+}
+.post2 a{
+    text-align: center;
+}
+.post2 button{
+    margin-left:150px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.post3{
+    height: 600px;
+    width: 420px;
+    border: black 5px solid;
+    float: right;
+    margin-top: -610px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.post3 h2{
+    text-align: center;
+    font: size 10px;
+    background-color: green;
+    color: white;
+    padding-left:  15px;
+   
+}
+.post3 a{
+    text-align: center;
+}
+.post3 button{
+    margin-left:150px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    
+}
+
+.post4{
+    height: 400px;
+    width: 420px;
+    border: black 5px solid;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.post4 h2{
+    text-align: center;
+    font: size 10px;
+    background-color: green;
+    color: white;
+    padding-left:  15px;
+}
+.post4 a{
+    text-align: center;
+}
+.post4 button{
+    margin-left:150px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+    
+.post5{
+    height: 400px;
+    width: 420px;
+    border: black 5px solid;
+    margin-left: 465px;
+    margin-top: -410px;
+}
+.post5 h2{
+    text-align: center;
+    font: size 10px;
+    background-color: green;
+    color: white;
+    padding-left:  15px;
+}
+.post5 a{
+    text-align: center;
+}
+.post5 button{
+    margin-left:150px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.post6{
+    height: 400px;
+    width: 420px;
+    float:right;
+    border: black 5px solid;
+    margin-top: -410px;
+    margin-right: 15px;
+}
+.post6 h2{
+    text-align: center;
+    font: size 10px;
+    background-color: green;
+    color: white;
+    padding-left:  15px;
+}
+.post6 a{
+    text-align: center;
+   
+}
+.post6 button{
+    margin-left:150px;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.shareicon{
+    margin-top:10px;
+    
+    margin-left: 500px;
+}
+.shareicon img{
+    height: 50px;
+    width: 50px;
+    
+}
+.shareicon img:hover{
+    color: red;
+    background-color:green;
+}
+.footer{
+    
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    background-color: green;
+    color:white;
+}
+.footer a{
+    color: white;
+}
+.p{
+    align-items: center;
+}
+.p1{
+    width: 250px;
+    height: 100px;
+    margin-top: 25px;
+    border: black solid 3px;
+    margin-left:15px;
+    background-color:tomato;
+    
+}
+.p1 a{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.p2{
+    width: 250px;
+    height:100px;
+    border: black solid 3px;
+    margin-left:282px;
+    margin-top: -105px;
+    background-color: orange;
+}
+.p2 a{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.p3{
+    width: 250px;
+    height: 100px;
+    border: black solid 3px;
+    margin-left: 549px;
+    margin-top: -105px;
+    background-color:slateblue;
+    
+}
+.p3 a{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.p4{
+    width: 250px;
+    height:100px;
+    border: black solid 3px;
+    margin-top: -105px;
+    margin-left: 813px;
+    background-color: darkviolet;
+    
+    
+}
+.p4 a{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.p5{
+    width: 250px;
+    height: 100px;
+    border: black solid 3px;
+    margin-top: -105px;
+    float: right;
+    background-color:violet;
+    margin-right: 15px;
+    
+}
+.p5 a{
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+   </style>
+</head>
+<body>
+    <header>
+        
+        <div class="h1">
+            <h1>Jobs For Your</h1>
+            <p>A website provided by All Informations </p>
+            <p><b> </b></p>
+            <p><b> </b> </p>
+        </div>
+        <div class="main">
+            <div class="logo">
+                <img src="C:\Users\Anand\Desktop\Project\j1.png" alt="">
+
+            </div>
+            <ul>
+                <li class="active"><a href="file:///C:/Users/Anand/Desktop/New%20folder%20(3)/home.html"> Home</a></li>
+                <li><a href="file:///C:/Users/Anand/Desktop/New%20folder%20(3)/online%20form/toponlineform.html">Jobs </a></li>
+                <li><a href="file:///C:/Users/Anand/Desktop/New%20folder%20(3)/result/results.html"> Results</a></li>
+                <li><a href="C:\Users\Anand\Desktop\New folder (3)\login page\index.html">Register</a></li>
+                <li><a href="C:\Users\Anand\Desktop\New folder (3)\login page\index.html">Login Page</a></li>
+                <li><a href="C:\Users\Anand\Desktop\New folder (3)\privacy policy\policy.html">Contact </a></li>
+               
+            </ul>
+        </div> 
+        <div class="newpost">
+            
+            <marquee behavior="alternate" direction="left"> <h4><img src="new.gif" alt=""> <a href="http://eg.apexbank.in/">MP Rajya Sahakari Bank Apex Bank Officers 2021 Apply Online Form</a> </h4></marquee>
+            <marquee behavior="alternate" direction="right"> <h4><img src="new.gif" alt=""> <a href="http://uplegisassembly.gov.in/index_en.html">UP Vidhan Sabha Sachivalaya Various Post Admit Card 2021</a> <a href="#"></a> </h4></marquee>
+            <marquee behavior="alternate" direction="left"> <h4><img src="new.gif" alt=""> <a href="https://hcraj.nic.in/hcraj/">Rajasthan High Court District Judge DJ 2021 Apply Online Form</a></h4></marquee>
+            <marquee behavior="alternate" direction="right"> <h4><img src="new.gif" alt=""> <a href="https://ssc.digialm.com//EForms/configuredHtml/2207/64627/login.html">SSC CPO SI Paper I Answer Key 2020</a> </h4></marquee></div>
+        <div class="p">      <div class="p1">
+           <b> <a href="https://jeemain.nta.nic.in/webinfo2021/Page/Page?PageId=1&LangId=P"><p> NTA 2021 JEEMAINS Apply Online Form</p> </a></b>
+        </div>
+        <div class="p2">
+            <a href="http://mppsc.nic.in/"><p>MPPSC PCS Pre Recruitment 2021 Apply Online Form</p> </a>
+        </div>
+        <div class="p3">
+            <a href="https://www.indianarmy.nic.in/"><p>Join Indian Army Dharm Guru Recruitment 2021 Apply Online Form</p> </a>
+        </div>
+        <div class="p4">
+            <a href="http://peb.mp.gov.in/e_default.html"><p>MP Police Constable Online Form 2021</p> </a>
+        </div>
+        <div class="p5">
+            <a href="http://upsc.gov.in/"><p>.UPSC NDA Recruitment 2021 Apply Online Form</p> </a>
+        </div>
+    </div>
+  
+        
+           <div class="post1">
+
+             <h2>Top Online Form </h2>
+             <a href="https://nta.ac.in/"><p>NTA UGC NET June 2020 E Certificate</p> </a><br>
+    <a href="https://www.myutiitsl.com/PAN_ONLINE/PANApp"><p>Pan Card Online Form 2020</p> </a><br>   
+    <a href="http://www.nvsp.in/Forms/Forms/form6"><p>Voter ID Online Form 2020</p> </a><br> 
+    <a href="https://uidai.gov.in/"><p>Aadhar Card Download, Correction, Status</p> </a><br> 
+    <a href="http://upbhulekh.gov.in/"><p>UP Khasra Khatauni Online Check</p> </a><br> 
+    <a href="http://entdata.in/"><p>UP NTSE Online Form 2020 </p> </a><br>
+    <a href="http://mprojgar.gov.in/"><p>MP Rojgar Panjiyan Online Form</p> </a><br>   
+    <a href="https://scholarship.up.gov.in/index.aspx"><p>UP Scholarship Class 9 to 12 Online Form 2020</p> </a><br> 
+    <a href="https://student.nielit.gov.in/Index.aspx"><p>CCC Result, Admit Card,Certificate, Online Form</p> </a><br> 
+    <a href="https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do"><p>UP Learning License Online Form 2020</p> </a><br> 
+    <a href="http://www.upbarcouncil.com/HomePage.aspx"><p>UP Bar Declaration Online Form   </p> </a><br> 
+    <a href="http://uppsc.up.nic.in/Notifications.aspx"><p>UPPSC GIC Lecturer Syllabus 2021</p> </a><br>   
+    <a href="https://www.sarkariresults.org.in/wp-content/uploads/2020/11/pgthindi-scaled.jpg"><p>UPSESSB UP PGT Syllabus 2020</p> </a><br> 
+    <a href="http://upsc.gov.in/"><p>Union Public Service Commission (UPSC)</p> </a><br> 
+
+          
+                         
+             <a href=""><p>SSC CHSL 10+2 Online Form 2020 Extended</p> </a><br>
+                         
+             <button><a href="C:\Users\Anand\Desktop\New folder (3)\online form\toponlineform.html">view more </a></button>
+           </div>
+           <div class="post2">
+
+            <h2>Admit Card</h2>
+            <a href="https://apply-bpssc.com/BPSSCAdmitcards/applicationIndex"><p>Bihar Police BPSSC ASI Steno Admit Card 2020</p> </a><br>
+            <a href="https://sso.rajasthan.gov.in/signin"><p>RPSC JLO Interview Letter 2021er</p> </a><br>   
+            <a href="http://adv92019.hryssc.in/StaticPages/login.aspx"><p>HSSC Haryana SSC Gram Sachiv Admit Card 2021</p> </a><br> 
+            <a href="http://www.bpssc.bih.nic.in/"><p>BPSSC Bihar Police Forest Range Officer Admit Card 2021</p> </a><br> 
+            <a href="http://www.psc.cg.gov.in/"><p>CGPSC State Engineering Services Admit Card 2021</p> </a><br> 
+            <a href="http://csbc.bih.nic.in/A-BHG.htm"><p>Bihar Police Sepoy Admit Card 2021</p> </a><br>
+            <a href="https://student.nielit.gov.in/Index.aspx"><p>NIELIT / DOEACC CCC 2021 Admit Card</p> </a><br>   
+            <a href="http://www.ssb.nic.in/"><p>SSB Sub Inspector Head Constable Admit Card 2020</p> </a><br> 
+            <a href="http://www.upvidhanparishad.nic.in/"><p>UP Sachivalaya Various Post Mains Admit Card 2020</p> </a><br> 
+             <a href="http://www.rrbbpl.nic.in/"><p>RRC Railway Group D Admit Card 2020
+    </p> </a><br> 
+     <a href="https://airmenselection.gov.in/"><p>Indian Air Force X Y Group Phase-II Admit Card 2020</p> </a><br>   
+     <a href="https://bceceboard.bihar.gov.in/"><p>Bihar City Manager Admit Card 2020</p> </a><br> 
+     <a href="http://ssc-cr.org/index.php"><p>SSC CGL 2018 Skill Test Change Exam District</p> </a><br> 
+     <a href="https://mpnhm-cho.samshrm.com/"><p>MP NHM CHO Admit Card 2020</p> </a><br> 
+  
+            
+            
+            <button><a href="file:///C:/Users/Anand/Desktop/New%20folder%20(3)/admit%20card/admitcard.html">view more</a></button>
+            </div>
+            <div class="post3">
+
+            <h2>Result</h2>
+            <a href="http://forest.delhigovt.nic.in/wps/wcm/connect/DOIT_Forest/forest/home"><p>Delhi Forest Department Ranger Result 2021  </p> </a><br>
+            <a href="https://sarkari.rojgarresult.com/wp-content/uploads/2021/01/HimachalPradesh-08_Results1_C3.pdf"><p>Himachal Pradesh Gramin Dak Sevak GDS Result 2021</p> </a><br>   
+            <a href="https://www.rectt.in/Home/ViewResult"><p>IOCL WR Apprentice Result 2021</p> </a><br> 
+            <a href="https://ibpsonline.ibps.in/rrb9as1jun20/res1rsd9a_jan21/login.php?appid=230464b061bf3781cce1d782f605fa63"><p>IBPS RRB Officer Scale-I Result 2021</p> </a><br> 
+            <a href="https://ssc.nic.in/"><p>SSC JE Junior Engineer 2018 Result</p> </a><br> 
+            <a href="https://www.ibps.in/crp-specialist-officers-x/"><p>IBPS SO Pre Score Card 2021</p> </a><br>
+            <a href="http://www.rrcser.co.in/"><p>RRB Railway SER Apprentice Result 2021</p> </a><br>   
+            <a href="http://btcexam.in/Reports/Searchmarksheet.aspx?STAT=B15AL"><p> UP DELEd 2018 / BTC 2015 Result</p></a><br> 
+            <a href="http://www.joinindiancoastguard.gov.in/"><p>Coast Guard Navik GD Result 2021</p> </a><br> 
+            <a href="http://www.upvidhanparishad.nic.in/"><p>UP Sachivalaya Vidhan Parishad Mains Result 2021</p> </a><br> 
+            <a href="http://www.edudel.nic.in/welcome_folder/gtengagement_2020.htm"><p>Delhi Guest Teacher TGT / PGT Merit List 2021</p> </a><br> 
+            <a href="https://bit.ly/3q1xtKH"><p>UPSSSC Junior Assistant 2017 Final Result</p> </a><br>   
+            <a href="http://btcexam.in/Reports/Searchmarksheet.aspx?STAT=B15AL"><p>UPSESSB TGT PGT Sanskrit Final Result</p> </a><br> 
+            <a href="https://www.ibps.in/crp-specialist-officers-x/"><p>IBPS SO Pre Exam Result 2021</p> </a><br> 
+            <a href="https://upsconline.nic.in/mainmenu2.php"><p>UPSC Civil Services 2019 Reserve List</p> </a><br> 
+           
+             
+                        <button><a href="C:\Users\Anand\Desktop\New folder (3)\result\results.html"> view more</a></button>
+                                   </div>
+                                  
+                                   <div class="post4">
+                                       <h2>Jobs</h2>
+                                       <a href="https://joinindianarmy.nic.in/BRAVOApplicantEligibility.htm"><p>Bihar Gaya Army Rally Online Form 2021</p> </a><br>
+                                       <a href="https://cdn3.digialm.com/EForms/configuredHtml/1709/65107/Instruction.html"><p>Maharashtra Metro Various Post Online Form 2021</p> </a><br>   
+                                       <a href="http://portal.mhrdnats.gov.in/"><p>NHPC India Apprentice Online Form 2021</p> </a><br> 
+                                       <a href="https://portal.mhrdnats.gov.in/boat/login/user_login.action"><p>AAI Apprentice Online Form 2021</p> </a><br> 
+                                       <a href="https://portal.mhrdnats.gov.in/boat/commonRedirect/registermenunew.action?struts.token.name=token&token=KHV6UJO4XA999T5126S9BYM8V5A1NZ4A&tokenStatus=open&tokenId=registermenunew&method%3Aregistermenunew=click+here"><p>ECIL Apprentice Online Form 2021</p> </a><br> 
+                                       <a href="http://portal.mhrdnats.gov.in/"><p>BEL Technician Apprentice Online Form 2021</p> </a><br>
+                                       <a href="http://www.jrbtripura.com/#/"><p>Tripura Group D MTS Online Form 2021</p> </a><br>   
+                                       <a href="https://www.idbibank.in/idbi-bank-careers-current-openings.asp"><p>IDBI Bank SO Online Form 2021</p> </a><br> 
+                                       <a href="https://www.eximbankindia.in/"><p>Exim Bank Management Trainee Online Form 2020</p> </a><br>   
+                                       
+                                       <button><a href="C:\Users\Anand\Desktop\New folder (3)\jobs\jobs.html">view more</a></button>
+                                   </div>
+                                      <div class="post5"> <h2>Admission</h2>
+                                        <a href="http://mprojgar.gov.in/JobSeekerRegistration"><p>MP Rojgar Panjiyan Online Form 2021</p> </a><br>
+                                        <a href="https://cpct.mp.gov.in/per/g01/pub/1172/ASM/WebPortal/1/index.html"><p>MP CPCT Online Form 2020</p> </a><br>   
+                                        <a href="https://bookmyhsrp.com/Index.aspx"><p>UP HSRP Number Plate Online Form 2020</p> </a><br> 
+                                        <a href="https://student.nielit.gov.in/Index.aspx"><p>NIELIT CCC Online Form 2020</p> </a><br> 
+                                        <a href="http://mprojgar.gov.in/"><p>MP Employment Portal Online Form 2020</p> </a><br> 
+                                        <a href="http://mprojgar.gov.in/JobSeekerRegistration"><p>MP Rojgar Panjiyan Online Form 2020</p> </a><br>
+                                        <a href="http://www.upurduakademi.org/Dynamic/English/index.aspx"><p>Urdu Study Centre Free Coaching Online Form 2020</p> </a><br>   
+                                        <a href="https://labreports.upcovid19tracks.in/"><p>UP Covid 19 Online Report 2020</p> </a><br> 
+                                        <a href="https://rajshaladarpan.nic.in/SD2/Home/Public2/Default.aspx"><p>Rajasthan Teacher Transfer Online Form 2020</p> </a><br> 
+                                        <button><a href="C:\Users\Anand\Desktop\New folder (3)\admission\admission.html">view more</a></button>
+                                   </div>
+                                   <div class="post6"> <h2>Answer Key</h2>
+                                    <a href="https://onlinedatafiles.s3.amazonaws.com/ssb_advt_337_2018/ANSWERKEY.pdf"><p>SSB Head Constable Answer Key 2021</p> </a><br>
+                                    <a href="http://mppeb_jp.onlineregistrationform.org:8810/ObjectionTrackerPortalWeb/loginPage.jsp"><p>MPPEB Jail Prahari Answer Key 2021</p> </a><br>   
+                                    <a href="https://cdn.digialm.com//EForms/configuredHtml/31144/68070/login.html"><p> Rajasthan Police Constable Answer Key 2021 for Revised</p> </a><br> 
+                                    <a href="https://bseh.org.in/htet2020-answer-key"><p>Haryana TET HTET 2021 Answer Key</p> </a><br> 
+                                    <a href="https://ssc.digialm.com/EForms/configuredHtml/2207/64629/login.html"><p>SSC Stenographer Answer Key 2020</p> </a><br>
+                                    <a href="https://ssc.digialm.com//EForms/configuredHtml/2207/64628/login.html"><p>SSC Delhi Police Constable Executive Answer Key 2020</p> </a><br>   
+                                    <a href="https://ssc.digialm.com/EForms/configuredHtml/2207/62149/login.html"><p>SSC Junior Engineer Tier-I 2019 Answer Key 2020</p> </a><br> 
+                                    <a href="https://uppqprepresentation.azurewebsites.net/"><p>UP Police Jail Warden / Fireman Answer Key 2020</p> </a><br> 
+                                    <a href="https://ssc.digialm.com//EForms/configuredHtml/2207/64627/login.html"><p>SSC CPO SI Answer Key 2020</p> </a><br>
+             
+                                    <button><a href="C:\Users\Anand\Desktop\New folder (3)\answer key\answekey.html">view more</a></button>
+                                   </div>
+                               
+            <div class="shareicon">
+            
+               <a href="https://www.whatsapp.com/?lang=en"> <img  src="whatsapp.png"  alt=""> </a>
+               <a href="https://www.facebook.com/"> <img src="facebook.png" alt=""> </a>
+                
+              <a href="https://www.instagram.com/accounts/login/">  <img src="instagram.png" alt=""> </a>
+               <a href="https://twitter.com/login?lang=en-gb"> <img src="twitter.png" alt=""></a>
+                  
+              
+            </div>
+
+            <footer>
+                <div class="footer">
+                    <p><b><h3>Disclaimer :</h3></b>
+                        Exam Results, Admit Card, Jobs Career, Admission Information or
+                        Links Available in this Website is only for the immediate
+                        Information Purpose to the Examinees an does not to be a
+                        constitute to be a Legal Document. While all efforts have been
+                        made to make the Information available on this Website as
+                        Authentic as possible. Jobs For Your are not responsible for any
+                        loss to anybody or anything caused by any Shortcoming, Defect or
+                        Inaccuracy of the Information on this Website.Exam Results,
+                        Admit Card, Jobs Career, Admission Information or Links
+                        Available in this Website is only for the immediate Information
+                        Purpose to the Examinees an does not to be a constitute to be a
+                        Legal Document. While all efforts have been made to make the
+                        Information available on this Website as Authentic as possible.
+                        Jobs For Your are not responsible for any loss to anybody or
+                        anything caused by any Shortcoming, Defect or Inaccuracy of the
+                        Information on this Website.
+                            </p><br>
+                <p>@Copyright 2020-2021 at www.filmvoot.online & www.wonfy.in </p>
+               </p> For All Types Feedback or Advt Query Mail Us at anand20b0103002@abes.ac.in</p></div>
+            </footer>
+            
+    </header>
+    
+</body>
+</html>
